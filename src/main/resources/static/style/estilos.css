@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/img/bg_character.jpg");
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+header{
+    background-color: navy;
+}
+
+div{  
+    display: flex;
+    margin: 40px;
+}
+
+.container .btn{
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: red;
+    color: black;
+    padding: 0px 150px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.container:hover .select_char1{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.container:hover .select_char3{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.select_char1{
+    position: absolute;
+    z-index: 2;
+    transition: 0.4s;
+    width: 100%;   
+}
+
+.select_char3{
+    position: absolute;
+    z-index: 2;
+    transition: 0.4s;
+    width: 100%;   
+}
+
+.container2 .btn{
+    position: sticky;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: red;
+    color: black;
+    padding: 0px 150px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 320px;
+    width: 100%;
+}
+
+.container2:hover .select_char1{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.containe2:hover .select_char3{
+    transform: scale(1.1);
+    opacity: 1;
+}
+

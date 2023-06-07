@@ -1,0 +1,27 @@
+
+body{
+    background-image: url("/img/jp_ss01.jpg");
+    background-color: navy;
+    color: white;
+}
+.a{
+    color: white;
+}
+
+.container1{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.container1 .contenido{
+    
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    grid-column: span 2;
+}
